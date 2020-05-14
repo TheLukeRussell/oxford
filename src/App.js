@@ -4,6 +4,7 @@ import './App.css';
 import InstaCard from './components/InstaCard';
 import Video from './components/Video';
 import Services from './components/Services';
+import Barbers from './components/Barbers';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       {/* <Video /> */}
       <InstaCard />
       <Services />
+      <Barbers />
     </div>
   );
 }
