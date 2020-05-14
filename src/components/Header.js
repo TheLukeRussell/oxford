@@ -5,7 +5,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 const Header = () => {
   return (
     <div>
-      <Navbar className='transparent' id='navbar' fixed='top' expand='lg'>
+      <Navbar id='navbar' fixed='top' expand='lg'>
         <Navbar.Brand className='mr-5' href='#home'>
           OXB
           {/* <img
