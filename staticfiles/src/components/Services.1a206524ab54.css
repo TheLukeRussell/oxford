@@ -1,0 +1,47 @@
+.services-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+}
+
+li {
+  list-style-type: circle;
+  padding: 20px;
+  font-size: 22px;
+}
+
+h1 {
+  text-align: center;
+  padding: 16px;
+  font-size: 64px;
+}
+
+h3 {
+  text-align: center;
+  padding: 16px;
+}
+
+#line {
+  width: 75%;
+  height: 3px;
+  background-color: #fff;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.bottom-text {
+  font-size: 18px;
+}
+
+#service-left {
+  background-image: url('http://res.cloudinary.com/culturemap-com/image/upload/ar_4:3,c_fill,g_faces:center,w_1200/v1550259970/photos/230773_original.jpg');
+  background-repeat: no-repeat;
+  background-size: center;
+}
+#service-right {
+  background-image: url('http://res.cloudinary.com/culturemap-com/image/upload/ar_4:3,c_fill,g_faces:center,w_1200/v1550259970/photos/230773_original.jpg');
+  background-repeat: no-repeat;
+  background-size: center;
+}
