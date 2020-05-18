@@ -18,15 +18,14 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
-app_name = 'frontend'
+app_name = "frontend"
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    # path('events/', include('events.urls', namespace = 'events')),
-    # path('auth-api/', include('rest_framework.urls')),
-    path('accounts/', include('django.contrib.auth.urls')),
-    path('accounts/', include('allauth.urls')),
-    path('', include('frontend.urls', namespace = 'frontend')),
+    path("admin/", admin.site.urls),
+    path("auth-api/", include("rest_framework.urls")),
+    path("accounts/", include("django.contrib.auth.urls")),
+    path("accounts/", include("allauth.urls")),
+    path("", include("frontend.urls", namespace="frontend")),
 ]
 
 if settings.DEBUG:  # new
