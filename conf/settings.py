@@ -26,6 +26,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
+    'oxford-barber-thelukerussell.herokuapp.com',
 ]
 
 

@@ -26,7 +26,7 @@ const Header = () => {
               Shop Gallery
             </Nav.Link>
             <Nav.Link id='text' href='#'>
-              Book Appointment
+              Book Appointments
             </Nav.Link>
             <Nav.Link id='text' href='#'>
               Staff
